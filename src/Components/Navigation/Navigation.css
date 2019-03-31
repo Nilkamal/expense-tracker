@@ -1,0 +1,49 @@
+.Navigation {
+  display: flex;
+  flex-flow: inherit;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  position: relative;
+  background: radial-gradient(circle, rgba(253, 187, 45, 1) 100%);
+}
+.logo img {
+  width: 200px;
+  height: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.navbar li {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  transition: transform 0.2s;
+}
+
+.navbar li a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  box-shadow: 10px 0 20px 0 rgba(140, 201, 180, 1);
+  padding: 5px;
+  font-size: 1.4rem;
+}
+
+.navbar li a:hover {
+  transform: scale(1.1);
+}
